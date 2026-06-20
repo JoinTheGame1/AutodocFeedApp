@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F18C97692FE6B2DE0078E48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18C974A2FE6B2DC0078E48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18C97512FE6B2DC0078E48E;
+			remoteInfo = AutodocFeedApp;
+		};
+		F18C97732FE6B2DE0078E48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18C974A2FE6B2DC0078E48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18C97512FE6B2DC0078E48E;
+			remoteInfo = AutodocFeedApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18C97522FE6B2DC0078E48E /* AutodocFeedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutodocFeedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18C97682FE6B2DE0078E48E /* AutodocFeedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutodocFeedAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18C97722FE6B2DE0078E48E /* AutodocFeedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutodocFeedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F18C977A2FE6B2DE0078E48E /* Exceptions for "AutodocFeedApp" folder in "AutodocFeedApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F18C97512FE6B2DC0078E48E /* AutodocFeedApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F18C97542FE6B2DC0078E48E /* AutodocFeedApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F18C977A2FE6B2DE0078E48E /* Exceptions for "AutodocFeedApp" folder in "AutodocFeedApp" target */,
+			);
+			path = AutodocFeedApp;
+			sourceTree = "<group>";
+		};
+		F18C976B2FE6B2DE0078E48E /* AutodocFeedAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AutodocFeedAppTests;
+			sourceTree = "<group>";
+		};
+		F18C97752FE6B2DE0078E48E /* AutodocFeedAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AutodocFeedAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18C974F2FE6B2DC0078E48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C97652FE6B2DE0078E48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C976F2FE6B2DE0078E48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18C97492FE6B2DC0078E48E = {
+			isa = PBXGroup;
+			children = (
+				F18C97542FE6B2DC0078E48E /* AutodocFeedApp */,
+				F18C976B2FE6B2DE0078E48E /* AutodocFeedAppTests */,
+				F18C97752FE6B2DE0078E48E /* AutodocFeedAppUITests */,
+				F18C97532FE6B2DC0078E48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18C97532FE6B2DC0078E48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18C97522FE6B2DC0078E48E /* AutodocFeedApp.app */,
+				F18C97682FE6B2DE0078E48E /* AutodocFeedAppTests.xctest */,
+				F18C97722FE6B2DE0078E48E /* AutodocFeedAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18C97512FE6B2DC0078E48E /* AutodocFeedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18C977B2FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedApp" */;
+			buildPhases = (
+				F18C974E2FE6B2DC0078E48E /* Sources */,
+				F18C974F2FE6B2DC0078E48E /* Frameworks */,
+				F18C97502FE6B2DC0078E48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F18C97542FE6B2DC0078E48E /* AutodocFeedApp */,
+			);
+			name = AutodocFeedApp;
+			packageProductDependencies = (
+			);
+			productName = AutodocFeedApp;
+			productReference = F18C97522FE6B2DC0078E48E /* AutodocFeedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18C97672FE6B2DE0078E48E /* AutodocFeedAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18C97802FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedAppTests" */;
+			buildPhases = (
+				F18C97642FE6B2DE0078E48E /* Sources */,
+				F18C97652FE6B2DE0078E48E /* Frameworks */,
+				F18C97662FE6B2DE0078E48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18C976A2FE6B2DE0078E48E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F18C976B2FE6B2DE0078E48E /* AutodocFeedAppTests */,
+			);
+			name = AutodocFeedAppTests;
+			packageProductDependencies = (
+			);
+			productName = AutodocFeedAppTests;
+			productReference = F18C97682FE6B2DE0078E48E /* AutodocFeedAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18C97712FE6B2DE0078E48E /* AutodocFeedAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18C97832FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedAppUITests" */;
+			buildPhases = (
+				F18C976E2FE6B2DE0078E48E /* Sources */,
+				F18C976F2FE6B2DE0078E48E /* Frameworks */,
+				F18C97702FE6B2DE0078E48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18C97742FE6B2DE0078E48E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F18C97752FE6B2DE0078E48E /* AutodocFeedAppUITests */,
+			);
+			name = AutodocFeedAppUITests;
+			packageProductDependencies = (
+			);
+			productName = AutodocFeedAppUITests;
+			productReference = F18C97722FE6B2DE0078E48E /* AutodocFeedAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18C974A2FE6B2DC0078E48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F18C97512FE6B2DC0078E48E = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					F18C97672FE6B2DE0078E48E = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F18C97512FE6B2DC0078E48E;
+					};
+					F18C97712FE6B2DE0078E48E = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = F18C97512FE6B2DC0078E48E;
+					};
+				};
+			};
+			buildConfigurationList = F18C974D2FE6B2DC0078E48E /* Build configuration list for PBXProject "AutodocFeedApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18C97492FE6B2DC0078E48E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F18C97532FE6B2DC0078E48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18C97512FE6B2DC0078E48E /* AutodocFeedApp */,
+				F18C97672FE6B2DE0078E48E /* AutodocFeedAppTests */,
+				F18C97712FE6B2DE0078E48E /* AutodocFeedAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18C97502FE6B2DC0078E48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C97662FE6B2DE0078E48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C97702FE6B2DE0078E48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18C974E2FE6B2DC0078E48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C97642FE6B2DE0078E48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18C976E2FE6B2DE0078E48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18C976A2FE6B2DE0078E48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18C97512FE6B2DC0078E48E /* AutodocFeedApp */;
+			targetProxy = F18C97692FE6B2DE0078E48E /* PBXContainerItemProxy */;
+		};
+		F18C97742FE6B2DE0078E48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18C97512FE6B2DC0078E48E /* AutodocFeedApp */;
+			targetProxy = F18C97732FE6B2DE0078E48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F18C977C2FE6B2DE0078E48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutodocFeedApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18C977D2FE6B2DE0078E48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutodocFeedApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F18C977E2FE6B2DE0078E48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18C977F2FE6B2DE0078E48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18C97812FE6B2DE0078E48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutodocFeedApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutodocFeedApp";
+			};
+			name = Debug;
+		};
+		F18C97822FE6B2DE0078E48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutodocFeedApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AutodocFeedApp";
+			};
+			name = Release;
+		};
+		F18C97842FE6B2DE0078E48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutodocFeedApp;
+			};
+			name = Debug;
+		};
+		F18C97852FE6B2DE0078E48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ASL4294V9V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NR.AutodocFeedAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutodocFeedApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18C974D2FE6B2DC0078E48E /* Build configuration list for PBXProject "AutodocFeedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18C977E2FE6B2DE0078E48E /* Debug */,
+				F18C977F2FE6B2DE0078E48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18C977B2FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18C977C2FE6B2DE0078E48E /* Debug */,
+				F18C977D2FE6B2DE0078E48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18C97802FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18C97812FE6B2DE0078E48E /* Debug */,
+				F18C97822FE6B2DE0078E48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18C97832FE6B2DE0078E48E /* Build configuration list for PBXNativeTarget "AutodocFeedAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18C97842FE6B2DE0078E48E /* Debug */,
+				F18C97852FE6B2DE0078E48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18C974A2FE6B2DC0078E48E /* Project object */;
+}
