@@ -1,0 +1,20 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods (если не используешь — не помешает)
+Pods/
+
+# Accio / Carthage
+Carthage/Build/
