@@ -19,7 +19,6 @@ final class NewsViewModel {
     @Published private(set) var error: APIError?
     
     private var nextPage: Int = 1
-    private let requestedPagesCount: Int = 15
     private var allPagesLoaded: Bool = false
     
     // MARK: - Init
@@ -35,20 +34,16 @@ final class NewsViewModel {
         
         isLoading = true
         Task {
-            do {
-                let response = try await networkService.fetchNewsPage(
-                    page: nextPage,
-                    count: requestedPagesCount
-                )
-                
-                switch response {
-                case .success(let data):
-                    self.setNewPage(data)
-                case .failure(let error):
-                    self.error = error
-                }
-            } catch {
-                self.error = .badResponse
+            let response = await networkService.fetchNewsPage(
+                page: nextPage,
+                count: NewsAPI.defaultPageSize
+            )
+            
+            switch response {
+            case .success(let data):
+                self.setNewPage(data)
+            case .failure(let error):
+                self.error = error
             }
             
             isLoading = false

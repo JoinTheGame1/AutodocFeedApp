@@ -26,6 +26,26 @@ struct News: Decodable, Hashable {
     
     private let rawImageUrl: String?
     private let rawPublishedDate: String?
+    
+    init(
+        id: Int,
+        title: String,
+        description: String,
+        url: String,
+        fullUrl: String,
+        category: String,
+        imageUrl: String?,
+        publishedDate: String?
+    ) {
+        self.id = id
+        self.title = title
+        self.description = description
+        self.url = url
+        self.fullUrl = fullUrl
+        self.category = category
+        self.rawImageUrl = imageUrl
+        self.rawPublishedDate = publishedDate
+    }
 
     enum CodingKeys: String, CodingKey {
         case id, title, description, url, fullUrl

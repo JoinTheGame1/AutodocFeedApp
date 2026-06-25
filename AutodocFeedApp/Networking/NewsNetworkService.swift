@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol NewsNetworkServiceProtocol {
-    func fetchNewsPage(page: Int, count: Int) async throws -> Result<NewsResponse, APIError>
+    func fetchNewsPage(page: Int, count: Int) async -> Result<NewsResponse, APIError>
 }
 
 final class NewsNetworkService: NewsNetworkServiceProtocol {
@@ -27,7 +27,11 @@ final class NewsNetworkService: NewsNetworkServiceProtocol {
     
     // MARK: - Internal methods
     
-    func fetchNewsPage(page: Int, count: Int) async -> Result<NewsResponse, APIError> {
+    func fetchNewsPage(
+        page: Int,
+        count: Int
+    ) async -> Result<NewsResponse, APIError> {
+        
         guard let url = NewsAPI.fetchPage(page: page, count: count)
         else { return .failure(.invalidUrl) }
         

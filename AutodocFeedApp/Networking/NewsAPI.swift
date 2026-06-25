@@ -11,6 +11,7 @@ enum NewsAPI {
     
     // MARK: - Properties
     static let baseUrl = URL(string: "https://webapi.autodoc.ru")
+    static let defaultPageSize: Int = 15
     
     // MARK: - Internal methods
     
@@ -19,7 +20,10 @@ enum NewsAPI {
         return URL(string: urlString)
     }
     
-    static func fetchPage(page: Int, count: Int) -> URL? {
+    static func fetchPage(
+        page: Int,
+        count: Int
+    ) -> URL? {
         baseUrl?.appending(path: "api/news/\(page)/\(count)")
     }
 }
